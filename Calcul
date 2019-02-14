@@ -22,7 +22,7 @@ G→O
 Menu("Formule","Calcul",1,"Stop",2,"Version",3)
 Lbl 3
 EffÉcran
-Output(2,1,"Version 1.0.25")
+Output(2,1,"Version 1.1.653")
 Pause 
 Goto O
 Lbl 2
