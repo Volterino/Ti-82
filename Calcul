@@ -1,2 +1,14 @@
 // TI-82 Logiciel : Formule et Algorithme de Calclul
 // Le code commence après cette ligne //
+
+EffÉcran
+Output(2,1,"FORMULE"
+Pause 
+EffÉcran
+Lbl O
+Menu("FORMULE","CALCUL",1,"STOP",2)
+Lbl 2
+EffÉcran
+Stop
+Lbl 1
+EffÉcran
