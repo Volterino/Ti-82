@@ -1,14 +1,27 @@
 // TI-82 Logiciel : Formule et Algorithme de Calclul
 // Le code commence après cette ligne //
 
+
+// Debut du code Version Public
 EffÉcran
-Output(2,1,"FORMULE"
+Output(2,1,"Formule")
 Pause 
 EffÉcran
 Lbl O
-Menu("FORMULE","CALCUL",1,"STOP",2)
+Menu("Formule","Calcul",1,"Stop",2)
 Lbl 2
 EffÉcran
 Stop
 Lbl 1
+EffÉcran
+Menu("Menu Principal","Mise A Jour",3,"Calcul Basique",4,"Calcul Avancée (x,y)",5)
+Lbl 3
+EffÉcran
+Output(2,1,"La Connexion au dépot GitHub n'est pas disponible")
+Pause 
+Goto O
+Lbl 5
+EffÉcran
+Menu("Droite et Fonction","Résolution",6)
+Lbl 6
 EffÉcran
