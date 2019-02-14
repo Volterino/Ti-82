@@ -8,6 +8,17 @@ Output(2,1,"Formule")
 Pause 
 EffÉcran
 Lbl O
+N→O
+M→O
+Z→O
+L→O
+A→O
+B→O
+C→O
+D→O
+R→O
+F→O
+G→O
 Menu("Formule","Calcul",1,"Stop",2,"Version",3)
 Lbl 3
 EffÉcran
@@ -19,7 +30,20 @@ EffÉcran
 Stop
 Lbl 1
 EffÉcran
-Menu("Menu Principal","Mise A Jour",4,"Calcul Basique",5,"Calcul Avancée (x,y)",6,"Quitter",2)
+Menu("Menu Principal","Mise A Jour",4,"Calcul Basique",5,"Calcul Avancée (x,y)",6,"Cours",9,"Retour",O,"Quitter",2)
+Lbl 5
+EffÉcran
+Menu("Calcul Basique","Pourcentages",8,"Retour",O,"Quitter",2)
+Lbl 8
+EffÉcran
+Output(2,1,"Calculer Un % : (Va/Vb)*1OO")
+Output(4,1,"Augmenter : nbr*1+x/1OO)")
+Output(6,1,"Diminuer : nbr*1-x/1OO")
+Pause 
+EffÉcran
+Output(2,1,"% d'un Nbr : nbr*%")
+Pause 
+Goto 1
 Lbl 4
 EffÉcran
 Output(2,1,"La Connexion au dépot GitHub n'est pas disponible")
@@ -27,7 +51,7 @@ Pause
 Goto O
 Lbl 6
 EffÉcran
-Menu("Fonction","Résolution",7)
+Menu("Foncion","Résolution",7,"Retour",O,"Quitter",2)
 Lbl 7
 EffÉcran
 Output(2,1,"Formule de A : (Yb-Ya)/(Xb-Xa)")
@@ -46,10 +70,13 @@ L→D
 (D-B)→R
 (C-A)→F
 R/F→G
+G
 Disp "Le Coef est :"
-Disp G
+Disp GFrac
 Pause 
 EffÉcran
+Goto O
+
 
 
 
