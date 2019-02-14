@@ -8,22 +8,27 @@ Output(2,1,"Formule")
 Pause 
 EffÉcran
 Lbl O
-Menu("Formule","Calcul",1,"Stop",2)
+Menu("Formule","Calcul",1,"Stop",2,"Version",3)
+Lbl 3
+EffÉcran
+Output(2,1,"Version 1.0.25")
+Pause 
+Goto O
 Lbl 2
 EffÉcran
 Stop
 Lbl 1
 EffÉcran
-Menu("Menu Principal","Mise A Jour",3,"Calcul Basique",4,"Calcul Avancée (x,y)",5)
-Lbl 3
+Menu("Menu Principal","Mise A Jour",4,"Calcul Basique",5,"Calcul Avancée (x,y)",6,"Quitter",2)
+Lbl 4
 EffÉcran
 Output(2,1,"La Connexion au dépot GitHub n'est pas disponible")
 Pause 
 Goto O
-Lbl 5
-EffÉcran
-Menu("Fonction","Résolution",6)
 Lbl 6
+EffÉcran
+Menu("Fonction","Résolution",7)
+Lbl 7
 EffÉcran
 Output(2,1,"Formule de A : (Yb-Ya)/(Xb-Xa)")
 Output(4,1,"Formule de B : Ya=a*xA+b")
@@ -45,6 +50,8 @@ Disp "Le Coef est :"
 Disp G
 Pause 
 EffÉcran
+
+
 
 
 
