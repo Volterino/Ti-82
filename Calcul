@@ -22,6 +22,46 @@ Pause
 Goto O
 Lbl 5
 EffÉcran
-Menu("Droite et Fonction","Résolution",6)
+Menu("Fonction","Résolution",6)
 Lbl 6
 EffÉcran
+Output(2,1,"Formule de A : (Yb-Ya)/(Xb-Xa)")
+Output(4,1,"Formule de B : Ya=a*xA+b")
+Pause 
+EffÉcran
+Output(2,1,"Dans l'ordre, tapez Xa, Ya, Xb, Yb")
+Prompt N
+Prompt M
+Prompt Z
+Prompt L
+N→A
+M→B
+Z→C
+L→D
+(D-B)→R
+(C-A)→F
+R/F→G
+Disp "Le Coef est :"
+Disp G
+Pause 
+EffÉcran
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
