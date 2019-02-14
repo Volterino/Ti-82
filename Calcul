@@ -22,7 +22,7 @@ G→O
 Menu("Formule","Calcul",1,"Stop",2,"Version",3)
 Lbl 3
 EffÉcran
-Output(2,1,"Version 1.1.653")
+Output(2,1,"Version 1.1.700")
 Pause 
 Goto O
 Lbl 2
@@ -30,7 +30,7 @@ EffÉcran
 Stop
 Lbl 1
 EffÉcran
-Menu("Menu Principal","Mise A Jour",4,"Calcul Basique",5,"Calcul Avancée (x,y)",6,"Cours",9,"Retour",O,"Quitter",2)
+Menu("Menu Principal","Mise A Jour",4,"Calcul Basique",5,"Calcul Avancée (x,y)",6,"Retour",O,"Quitter",2)
 Lbl 5
 EffÉcran
 Menu("Calcul Basique","Pourcentages",8,"Retour",O,"Quitter",2)
